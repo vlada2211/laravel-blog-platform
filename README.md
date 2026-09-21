@@ -20,7 +20,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
-Blog Platform
+<h2>Blog Platform</h2>
 
 A web-based blog platform built with Laravel, designed to provide users with a simple and structured way to create, manage, and explore blog content.
 
