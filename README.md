@@ -20,6 +20,88 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
 Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Blog Platform
+
+A web-based blog platform built with Laravel, designed to provide users with a simple and structured way to create, manage, and explore blog content.
+
+Features
+User registration and login
+User profiles with avatar and bio
+Create blog posts with images
+Edit and delete posts
+Unique post URLs using a slug system
+Categories for organizing and filtering content
+Image and file management using Laravel Storage
+Authentication and route protection with middleware
+Database interaction using Laravel Eloquent ORM
+Technologies
+Laravel — Backend Framework
+Blade — Frontend Templating Engine
+Eloquent ORM — Database Interaction
+Laravel Storage — File and Image Management
+Middleware — Authentication and Route Protection
+PHP
+MySQL
+Application Architecture
+
+The project follows Laravel's MVC architecture and separates the main responsibilities of the application into different layers.
+
+Request Flow
+User
+  ↓
+Route
+  ↓
+Middleware
+  ↓
+Controller
+  ↓
+Model (Database)
+  ↓
+View (Blade UI)
+  ↓
+User sees the page
+Main Components
+
+Routes
+Define which URL should lead to a specific part of the application.
+
+Middleware
+Acts as a security layer that checks requests before they reach the controller. It is used to protect routes and authenticated user functionality.
+
+Controllers
+Handle request processing and application logic, connecting routes, models, and views.
+
+Models
+Represent and interact with database data using Laravel's Eloquent ORM.
+
+Views
+Built with Blade and responsible for displaying the user interface.
+
+Database Interaction
+
+The project uses Eloquent ORM, which allows database records to be managed through PHP objects and Laravel models instead of writing raw SQL queries for every operation.
+
+This approach is used for working with users, posts, categories, and other application entities.
+
+Image and File Storage
+
+Laravel's Storage system is used to manage uploaded files and images.
+
+Uploaded public files are stored through Laravel's storage system and can be accessed by the application when displaying post images or profile avatars.
+
+Post Management
+
+Authenticated users can:
+
+Create new posts
+Upload images
+Assign posts to categories
+Edit their existing posts
+Delete their posts
+Access posts through unique slug-based URLs
+Goal of the Project
+
+The main goal of this project was to gain practical experience in Laravel backend development, MVC architecture, database interaction, authentication, middleware, file handling, and building a complete web application.
 
 ## Learning Laravel
 
